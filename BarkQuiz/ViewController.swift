@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
+    
+    var dogBreeds = [String]()
+    var score = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()

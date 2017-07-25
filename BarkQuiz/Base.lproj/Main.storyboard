@@ -45,6 +45,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="72c-1y-Qke"/>
+                    <connections>
+                        <outlet property="button1" destination="b8S-hL-9Eo" id="MDQ-zc-HSx"/>
+                        <outlet property="button2" destination="rIZ-se-jYP" id="WZ6-Cp-cpn"/>
+                        <outlet property="button3" destination="XaU-hv-mLJ" id="CQF-BC-kWG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

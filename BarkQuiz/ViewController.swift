@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         dogBreeds += ["afghan hound", "airedale terrier", "akita", "alaskan malamute", "american eskimo dog", "american stafford terrier", "australian cattle dog", "australian shepherd", "australian terrier", "basenji", "basset hound", "beagle", "bearded collie", "bedlington terrier", "belgian sheepdog", "bernese mountain dog", "bichon frise", "bloodhound"]
+        
+        askQuestion()
+    }
+    
+    func askQuestion() {
+        button1.setImage(UIImage(named: dogBreeds[0]), for: .normal)
+        button2.setImage(UIImage(named: dogBreeds[1]), for: .normal)
+        button3.setImage(UIImage(named: dogBreeds[2]), for: .normal)
     }
 
     override func didReceiveMemoryWarning() {

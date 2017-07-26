@@ -44,6 +44,9 @@ class ViewController: UIViewController {
         
         //needs GameplayKit to work generates a random number 0-2
         correctAnswer = GKRandomSource.sharedRandom().nextInt(upperBound: 3)
+        
+        //uppercases and adds names of breeds
+        title = dogBreeds[correctAnswer].uppercased()
     }
 
     override func didReceiveMemoryWarning() {

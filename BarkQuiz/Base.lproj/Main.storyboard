@@ -23,15 +23,24 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8S-hL-9Eo">
                                 <rect key="frame" x="87.5" y="100" width="200" height="100"/>
-                                <state key="normal" image="Afghan-Hound"/>
+                                <state key="normal" image="afghan hound"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hc6-T0-8fY"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIZ-se-jYP">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIZ-se-jYP">
                                 <rect key="frame" x="87.5" y="230" width="200" height="100"/>
-                                <state key="normal" image="Afghan-Hound"/>
+                                <state key="normal" image="afghan hound"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0bV-1v-3w1"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaU-hv-mLJ">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaU-hv-mLJ">
                                 <rect key="frame" x="87.5" y="360" width="200" height="100"/>
-                                <state key="normal" image="Afghan-Hound"/>
+                                <state key="normal" image="afghan hound"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0I6-fC-F8y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,6 +84,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Afghan-Hound" width="200" height="100"/>
+        <image name="afghan hound" width="200" height="100"/>
     </resources>
 </document>

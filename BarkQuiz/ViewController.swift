@@ -49,6 +49,9 @@ class ViewController: UIViewController {
         title = dogBreeds[correctAnswer].uppercased()
     }
 
+    @IBAction func buttonTapped(_ sender: UIButton) {
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

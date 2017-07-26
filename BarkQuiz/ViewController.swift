@@ -31,10 +31,10 @@ class ViewController: UIViewController {
         button2.layer.borderColor = UIColor.lightGray.cgColor
         button3.layer.borderColor = UIColor.lightGray.cgColor
         
-        askQuestion()
+        askQuestion(action: nil)
     }
     
-    func askQuestion() {
+    func askQuestion(action: UIAlertAction!) {
         //make the pictures random. just pulls from the array. need the import GameplayKit
         dogBreeds = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: dogBreeds) as! [String]
         
@@ -50,6 +50,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
+        
+        var title: String
+        
+        if sender.tag == correctAnswer {
+            title = "Correct"
+            score += 1
+        } else {
+            title = "Wrong"
+            score -= 1
+        }
+        
+        let ac = UIAlertController(title: title, message: "Your score is \(score).", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        present(ac, animated: true)
     }
     
     override func didReceiveMemoryWarning() {

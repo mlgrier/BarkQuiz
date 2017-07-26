@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dogBreeds += ["afghan hound", "airedale terrier", "akita", "alaskan malamute", "american eskimo dog", "american stafford terrier", "australian cattle dog", "australian shepherd", "australian terrier", "basenji", "basset hound", "beagle", "bearded collie", "bedlington terrier", "belgian sheepdog", "bernese mountain dog", "bichon frise", "bloodhound"]
+        dogBreeds += ["afghan hound", "airedale terrier", "akita", "alaskan malamute", "american eskimo dog", "american stafford terrier", "australian cattle dog", "australian shepherd", "australian terrier", "basenji", "basset hound", "beagle", "bearded collie", "bedlington terrier", "belgian sheepdog", "bernese mountain dog", "bichon frise", "bloodhound", "bluetick coonhound", "border collie", "border terrier", "borzoi", "boston terrier", "boxer", "boykin spaniel", "briard", "brittany spaniel", "brussels griffon", "bull terrier", "bullmastiff", "cairn terrier", "cane corso", "cavalier king charles spaniel", "cesky terrier", "chesapeake bay retriever", "chihuahua", "chinese crested", "chinese shar pei", "chow chow", "cocker spaniel", "collie", "coton de tulear", "dachshund", "dalmatian", "doberman pinscher", "dogue de bordeaux", "english bulldog", "finnish spitz", "flat coated retriever", "fox terrier", "french bulldog", "german shepherd", "german shorthaired pointer", "golden retriever", "goldendoodle", "great dane", "great pyrenees", "greyhound", "havanese", "irish setter", "irish terrier", "jack russell terrier", "japanese chin", "swiss shepherd dog", "yorkshire terrier"]
         
         button1.layer.borderWidth = 1
         button2.layer.borderWidth = 1
